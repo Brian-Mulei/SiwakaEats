@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#001149</color>
+    <color name="colorPrimaryDark">#080393</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="signup">#f7f7f7</color>
+    <color name="signin">#938f19</color>
+    <color name="menu_bground">#c017418e</color>
+    <color name="actionbar">#82353b38</color>
+</resources>

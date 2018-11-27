@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "505305221845",
+    "firebase_url": "https://foodapp1-80ab3.firebaseio.com",
+    "project_id": "foodapp1-80ab3",
+    "storage_bucket": "foodapp1-80ab3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505305221845:android:a62a09ec2c68dfae",
+        "android_client_info": {
+          "package_name": "com.example.brioz.foodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505305221845-ct8ebklcep3asure6q1ir5vib1olg69u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brioz.foodapp",
+            "certificate_hash": "ec1946c30ec9a7be71a452d384043af51219fefc"
+          }
+        },
+        {
+          "client_id": "505305221845-nul5kdqo408aqq387eqbtapvrlvjbuj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJq7NPfWNQ1hp-eWMAc84EhsOO4wedTs0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505305221845-nul5kdqo408aqq387eqbtapvrlvjbuj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
