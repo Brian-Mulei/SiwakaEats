@@ -1,11 +1,11 @@
 package com.example.brioz.foodapp;
 
-import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -43,11 +43,12 @@ public class FoodDetails extends AppCompatActivity {
 
         number_button =(ElegantNumberButton)findViewById(R.id.number_button);
         btnCart =(FloatingActionButton)findViewById(R.id.btnCart);
-        
+
 
         btnCart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 new Database(getBaseContext()).addToCart((new order(
                         foodId,
                         currentfood.getName(),

@@ -124,7 +124,7 @@
                         android:layout_marginBottom="18dp"
                         app:textSize="8sp"
                         app:backGroundColor="#027025"
-                        app:initialNumber="0"
+                        app:initialNumber="1"
                         app:finalNumber="10"/>
 
         </LinearLayout>

@@ -56,7 +56,7 @@ public class signin extends AppCompatActivity {
                            //get user details
                            mDialog.dismiss();
                            User user =dataSnapshot.child(textphone.getText().toString()).getValue(User.class);
-                            user.setPhone(textphone.getText().toString());
+                         //  user.setTextphone(textphone.getText().toString());
                            if (user.getPassword().equals(password.getText().toString()))
                            {
                                Toast.makeText(signin.this, "Welcome Back!! :)", Toast.LENGTH_SHORT).show();
