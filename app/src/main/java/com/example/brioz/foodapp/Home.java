@@ -139,10 +139,13 @@ public class Home extends AppCompatActivity
             startActivity(cartintent);
 
         } else if (id == R.id.nav_orders) {
+            Intent statusintent =new Intent(Home.this,OrderStatus.class);
+            startActivity(statusintent);
+
 
         } else if (id == R.id.nav_logout) {
             Intent logout =new Intent(Home.this,signin.class);
-
+            logout.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(logout);
 
         }
