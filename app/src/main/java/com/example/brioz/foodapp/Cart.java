@@ -46,7 +46,7 @@ public class Cart extends AppCompatActivity implements View.OnClickListener {
         recyclerView =(RecyclerView)findViewById(R.id.Cart);
         txttotal =(TextView)findViewById(R.id.txttotal);
         placeorder=(Button) findViewById(R.id.placeorder);
-        recyclerView.setHasFixedSize(true);
+       // recyclerView.setHasFixedSize(true);
         layoutManager =new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 

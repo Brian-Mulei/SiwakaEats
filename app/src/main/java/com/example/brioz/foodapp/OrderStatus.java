@@ -61,9 +61,9 @@ public class OrderStatus extends AppCompatActivity {
     }
 
     private String convertCodeToStatus(String status) {
-        if(status.equals("0"))
+        if(("0").equals(status))
             return "Order Placed";
-        else if(status.equals("1"))
+        else if(("1").equals(status))
             return "Order is being Prepared";
         else
             return "Order was picked up";
